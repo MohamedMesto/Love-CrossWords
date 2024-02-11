@@ -47,13 +47,31 @@
         <h1 class="heading">
             <img class="logo" src="assets/images/logo.png" alt="logo"> Love Cross Words
         </h1>
+
     </header>
+
     <!--Main content-->
     <main>
+        <!--  <section id="core_img">
+            <div id="cover_slogan">
+                  <h2>Love Cross Words!</h2>  
+                <h2>Think and play rationally forever</h2>
+                 <h5>Embark on a journey of words and wit with our interactive crossword puzzles. Challenge your mind,
+                    solve clues, and embrace the joy of linguistic discovery on our engaging puzzle platform.!</h5>
+             
+                </div>
+        </section> -->
+
+
+
         <div class="game-area">
 
             <!-- Start Cross Word block -->
+
+
             <h1 id="h1"> CrossWords of Architecture</h1>
+
+
             <div id="waitmessage" class="ecw-answerbox">
                 This interactive crossword puzzle requires JavaScript and any
                 recent web browser, including Windows Internet Explorer, Mozilla Firefox, Google Chrome, or
@@ -63,19 +81,28 @@
                 top or bottom of
                 the page to allow the puzzle to load.
             </div>
+
             <table>
                 <tr>
+
                     <td class="ecw-crosswordarea">
-                        <!-- Cross Words descriptions script file -->
+
                         <script type="text/javascript" src="assets/js/script_desc.js"></script>
-                        <!-- Cross Words Functions script file -->
+
+
                         <script type="text/javascript" src="assets/js/script_fn.js"></script>
+
                     </td>
+
                     <td valign="top" style="padding-left: 1em;">
+
+
+
                         <div id="welcomemessage" class="ecw-answerbox" style="display:none;">
                             <h3>Welcome!</h3>
                             <p>Click a word in the puzzle to get started.</p>
                         </div>
+
                         <div id="answerbox" class="ecw-answerbox" style="display:none;">
                             <h3 id="wordlabel" class="ecw-wordlabel">&nbsp; </h3>
                             <div id="wordinfo" class="ecw-wordinfo"> </div>
@@ -85,6 +112,7 @@
                                     onkeypress="WordEntryKeyPress(event)" onchange="WordEntryKeyPress(event)" />
                             </div>
                             <div id="worderror" class="ecw-worderror"></div>
+
                             <table class="table_style">
                                 <tbody>
                                     <tr>
@@ -111,16 +139,46 @@
                     </td>
                 </tr>
             </table>
+
             <div style="margin-top: 1em;">
                 <button id="checkbutton button_result" type="button" onclick="CheckClick();">Check CrossWords Puzzle
                     Result</button>
             </div>
+
             <script type="text/javascript">
                 StartCrossword();
             </script>
             <!-- End Cross word block -->
         </div>
     </main>
+
+    <!--Footer-->
+    <!-- <footer>
+        <ul id="social_networks_links">
+            <li>
+                <a href="https://www.facebook.com/mo.mu.5203577" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <img alt="Mohamed Mesto | facebook" src="assets/images/header_footer/fb.jpeg" /></a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/watch?v=b122ta41eqY&t=74s" target="_blank" rel="noopener"
+                    aria-label="Visit our episode on youtube (opens in a new tab)">
+                    <img alt="Mohamed Mesto | Youtube" src="assets/images/header_footer/youtube.jpeg" /></a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/channel/UCK0zBlOQ37vPcGxlWDIAYOA" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube Chanel Tips From Europe(opens in a new tab)">
+                    <img alt="Mohamed Mesto | Youtube" src="assets/images/header_footer/Berlin.jpg" /></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mohamedmesto/" target="_blank" rel="noopener"
+                    aria-label="Visit our linkedin page (opens in a new tab)">
+                    <img alt="Mohamed Mesto | LinkedIn" src="assets/images/header_footer/linkedin.jpeg" /></a>
+            </li>
+        </ul>
+    </footer> -->
 </body>
 
 </html>
