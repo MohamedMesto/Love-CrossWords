@@ -2,9 +2,9 @@
 
 "Love Cross Words (Think and play rationally forever)" Engaging in crossword puzzles can be a source of both mental stimulation and motivation. The challenge of deciphering clues and finding the right words within a grid not only exercises one's vocabulary but also promotes cognitive flexibility and problem-solving skills. The satisfaction derived from successfully completing a crossword puzzle can boost self-esteem and provide a sense of accomplishment. Additionally, the variety of topics covered in crosswords exposes individuals to a diverse range of information, making the activity an enjoyable way to learn new words and trivia. Whether it's the thrill of solving challenging clues or the joy of expanding one's knowledge base, the motivation behind tackling crossword puzzles lies in the mental exercise, accomplishment, and the sheer enjoyment of the linguistic journey they offer.
 
-You can view the live site here - <a href="https://mohamedmesto.github.io/love-your-body2/" target="_blank"> LOVE YOUR BODY </a>
+You can view the live site here - <a href="https://mohamedmesto.github.io/Love-CrossWords/" target="_blank"> Love Cross Words </a>
 
-![Love your body responsive design](assets/images/readme_images/devices.png)
+![Love Cross Words responsive design](assets/images/readme_images/devices.png)
 
 # Contents
 
@@ -75,7 +75,7 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/love-y
 - Share this amazing cure with the whole planet to make the people as much as possible happy, strong and healthy
 
 ## Design the Episode 
-Design the Episode Love your body- Therapeutic Fasting - Dr.Otto Buchinger (the link is shown below) on the youtube chanel Tips From Europe
+Design the Episode Love Cross Words- Therapeutic Fasting - Dr.Otto Buchinger (the link is shown below) on the youtube chanel Tips From Europe
 
 The design and structure for this website was created in Video Editor.  
 
@@ -83,7 +83,7 @@ The design and structure for this website was created in Video Editor.
 
 ## Site Structure
 
-Love Your Body (Fasting Treatment) consists of 6 page website with 5 pages that the user can navigate between via the navigation bar.  The Home page is the default loading page. The Logo is centered and is also linked to the Home Page. On the right hand site of the logo are five navigation links of [Home](index.html) , [Fasting Steps](fasting.html) ,[Fasting World](fasting_world.html) , [Join us](join_us.html) and [Fasting books](books.html).
+Love Cross Words (Fasting Treatment) consists of 6 page website with 5 pages that the user can navigate between via the navigation bar.  The Home page is the default loading page. The Logo is centered and is also linked to the Home Page. On the right hand site of the logo are five navigation links of [Home](index.html) , [Fasting Steps](fasting.html) ,[Fasting World](fasting_world.html) , [Join us](join_us.html) and [Fasting books](books.html).
 
 
 ## Design Choices
@@ -103,7 +103,7 @@ There were two types of fonts chosen for this website. 'Lemon' was used for the 
 # Features
 
 
-Love Your Body boasts a user-friendly and intuitive design, resembling a conventional website layout, thereby inviting users to seamlessly delve deeper into its offerings.
+Love Cross Words boasts a user-friendly and intuitive design, resembling a conventional website layout, thereby inviting users to seamlessly delve deeper into its offerings.
 
 Upon entering each page, excluding the Home Page, visitors encounter a distinct heading accompanied by a concise paragraph introducing the content. The use of friendly language, vibrant colors, and thoughtful design aims to create an easily understandable and approachable environment. Additionally, the website offers unique and valuable insights, providing readers with extraordinary information not commonly found elsewhere.
 
@@ -290,7 +290,7 @@ Upon entering each page, excluding the Home Page, visitors encounter a distinct 
 
 ## Code Validation
 
-Love Your Body has been validated via W3C HTML Validator and the W3C CSS Validator. There were 6 minor errors that came up for all of the pages. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Validator. There were 6 minor errors that came up for all of the pages. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
 ![W3C HTML Validator](assets/images/readme_images/html-validator.png)
 
@@ -360,7 +360,7 @@ In addition to the automated process above, manual testing was carried out on th
 
 - Browser Testing
 
-  - Love your body has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
+  - Love Cross Words has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
   - Verified that all images worked correctly
   - Verified that design and structure was consistent across all browsers.
   - Verfied responsiveness across all browsers.
