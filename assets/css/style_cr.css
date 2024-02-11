@@ -47,6 +47,13 @@ text-align: right;
 
 }
 
+.td_question
+{
+vertical-align: top;
+padding-left: 1em;
+
+}
+
 /* input box style */
 .input_style{
 size: 24;
