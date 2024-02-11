@@ -265,11 +265,7 @@ ul li a img {
         display: none;
     }
 
-    #crossword_logo {
-        font-size: 290%;
-        line-height: 80px;
-        margin: 0 0.5rem;
-    }
+    
 
     /* Main content */
     main {

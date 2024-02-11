@@ -1,0 +1,174 @@
+/* General styles*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+}
+
+#h1 {
+	text-align: center;
+	color: red;
+
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #2157cc;
+}
+
+body {
+	cursor: default;
+	font-size: small;
+}
+/* table style */
+
+table{
+	padding:0px;
+	border-spacing: 0px;
+	border:0px;
+}
+
+.table_style{
+width: 100%;
+margin-top: 1em;
+	
+}
+.td_style{
+text-align: right;
+
+}
+
+/* input box style */
+.input_style{
+size: 24;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+/* Answer box style */
+.ecw-answerbox {
+	color: black;
+	background-color: #FFFAF0;
+	border-color: #808080;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	padding: .75em;
+	width: 240pt;
+}
+
+.ecw-box {
+	border-style: solid;
+	border-width: 1pt;
+	cursor: pointer;
+	font-size: .12in;
+	font-weight: bold;
+	height: .18in;
+	overflow: hidden;
+	text-align: center;
+	width: .18in;
+}
+/* boxcheated sel style */
+.ecw-boxcheated_sel {
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #2080D0;
+}
+
+/* box cheated unsel style */
+.ecw-boxcheated_unsel {
+	background-color: #ffffff;
+	border-color: #606060;
+	color: #2080D0;
+}
+
+/* box error style */
+.ecw-boxerror_sel {
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #BF0000;
+}
+
+.ecw-boxerror_unsel {
+	background-color: #FFF0F0;
+	border-color: #606060;
+	color: #BF0000;
+}
+
+.ecw-boxnormal_sel {
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #000000;
+}
+
+.ecw-boxnormal_unsel {
+	background-color: #ffffff;
+	border-color: #606060;
+	color: #000000;
+}
+
+/* button style */
+.ecw-button {
+	width: 64pt;
+}
+
+.ecw-cluebox {
+	border-bottom-width: 1px;
+	border-color: #c0c0c0;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-style: solid;
+	border-top-width: 1px;
+	margin-top: 1em;
+	padding-bottom: .5em;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: .5em;
+}
+#button_result{
+display: none;
+ 
+}
+/* Cross Word Area style */
+.ecw-crosswordarea {
+	background-color: #000000;
+	border-color: #808080;
+	border-style: solid;
+	border-width: 2px;
+	padding: .5em;
+	font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+	font-size: small;
+}
+
+
+.ecw-input {
+	font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+}
+
+/* Word Label style */
+.ecw-wordlabel {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.ecw-wordinfo {
+	font-size: 8pt;
+	color: #808080;
+}
+
+.ecw-worderror {
+	color: #c00000;
+	font-weight: bold;
+	display: none;
+	margin-top: 1em;
+}

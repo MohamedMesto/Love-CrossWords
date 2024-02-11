@@ -447,4 +447,5 @@ The website was deployed to GitHub pages via the following methods:
 - Readme Template is sourced from [love-running-2.0](https://code-institute-org.github.io//index.html) 
 -  Logo is sourced from [qonversion.io](https://qonversion.io/apps/ios/crossword-puzzle-universe/1552720930)  
 
+- Some contents are sourced from [EclipseCrossword](eclipsecrossword.com)
  

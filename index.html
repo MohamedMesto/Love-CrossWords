@@ -28,6 +28,9 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+     <!--Cross Word Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style_cr.css">
+
     <!-- Font Awesome kit and google fonts -->
     <script src="https://kit.fontawesome.com/895cc74687.js" crossorigin="anonymous"></script>
 
@@ -49,22 +52,110 @@
 
     <!--Main content-->
     <main>
-        <section id="core_img">
+       <!--  <section id="core_img">
             <div id="cover_slogan">
-                <!-- <h2>Love Cross Words!</h2> -->
+                  <h2>Love Cross Words!</h2>  
                 <h2>Think and play rationally forever</h2>
-<!--                 <h5>Embark on a journey of words and wit with our interactive crossword puzzles. Challenge your mind,
+                 <h5>Embark on a journey of words and wit with our interactive crossword puzzles. Challenge your mind,
                     solve clues, and embrace the joy of linguistic discovery on our engaging puzzle platform.!</h5>
-             -->
+             
                 </div>
-        </section>
+        </section> -->
 
 
 
         <div class="game-area">
-
+                        
+            <!-- Start Cross Word block -->
+          
+            
+                <h1 id="h1"> CrossWords of Architecture</h1>
+            
+            
+                <div id="waitmessage" class="ecw-answerbox">
+                    This interactive crossword puzzle requires JavaScript and any
+                    recent web browser, including Windows Internet Explorer, Mozilla Firefox, Google Chrome, or
+                    Apple Safari. If you have disabled web page scripting, please re-enable it and refresh
+                    the page. If this web page is saved on your computer, you may need to click the yellow Information Bar at the
+                    top or bottom of
+                    the page to allow the puzzle to load.
+                </div>
+            
+                <table>  
+                     <tr>
+            
+                        <td class="ecw-crosswordarea">
+             
+                            <script type="text/javascript" src="assets/js/script_desc.js"></script>
+            
+             
+                            <script type="text/javascript" src="assets/js/script_fn.js"></script>
+            
+                        </td>
+            
+                        <td valign="top" style="padding-left: 1em;">
+            
+            
+            
+                            <div id="welcomemessage" class="ecw-answerbox" style="display:none;">
+                                <h3>Welcome!</h3>
+                                <p>Click a word in the puzzle to get started.</p>
+                            </div>
+            
+                            <div id="answerbox" class="ecw-answerbox" style="display:none;">
+                                <h3 id="wordlabel" class="ecw-wordlabel">&nbsp; </h3>
+                                <div id="wordinfo" class="ecw-wordinfo"> </div>
+                                <div id="wordclue" class="ecw-cluebox"> </div>
+                                <div style="margin-top: 1em;">
+                                    <input class="ecw-input" id="wordentry" type="text"   onkeypress="WordEntryKeyPress(event)"
+                                        onchange="WordEntryKeyPress(event)" />
+                                </div>
+                                <div id="worderror" class="ecw-worderror"></div>
+            
+                                <table class="table_style">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <button id="cheatbutton" type="button" class="ecw-input ecw-button"
+                                                    onclick="CheatClick();">Solve</button>
+                                            </td>
+                                            <td  class="td_style">
+                                                <button id="okbutton" type="button" class="ecw-input ecw-button"
+                                                    onclick="OKClick();" style="font-weight: bold;">OK</button> &nbsp;
+                                                <button id="cancelbutton" type="button" class="ecw-input ecw-button"
+                                                    onclick="DeselectCurrentWord();">Cancel</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+            
+                            </div>
+            
+                            <div id="congratulations" class="ecw-answerbox" style="display:none;">
+                                <h3>Congratulations!</h3>
+                                <p>You have completed this Cross Word Puzzle.
+                                </p>
+            
+                            </div>
+            
+                        </td>
+                    </tr>
+                </table>
+            
+                <div style="margin-top: 1em;">
+                    <button id="checkbutton button_result" type="button" onclick="CheckClick();"  >Check CrossWords Puzzle
+                        Result</button>
+                </div>
+            
+                <script type="text/javascript">
+                    StartCrossword();
+            
+                </script>
+            
+             
+         <!-- End Cross word block -->
         </div>
-    
+   
  
 
 
@@ -80,7 +171,7 @@
 
 
     <!--Footer-->
-    <footer>
+    <!-- <footer>
         <ul id="social_networks_links">
             <li>
                 <a href="https://www.facebook.com/mo.mu.5203577" target="_blank" rel="noopener"
@@ -105,7 +196,7 @@
                     <img alt="Mohamed Mesto | LinkedIn" src="assets/images/header_footer/linkedin.jpeg" /></a>
             </li>
         </ul>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
