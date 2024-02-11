@@ -1,3 +1,4 @@
+![CrossWord Slogan](assets/favicon/favicon-96x96.png)
 # **_Love Cross Words (Think and play rationally forever) - Project Portfolio 2 - JavaScript_**
 
 "Love Cross Words (Think and play rationally forever)" Engaging in crossword puzzles can be a source of both mental stimulation and motivation. The challenge of deciphering clues and finding the right words within a grid not only exercises one's vocabulary but also promotes cognitive flexibility and problem-solving skills. The satisfaction derived from successfully completing a crossword puzzle can boost self-esteem and provide a sense of accomplishment. Additionally, the variety of topics covered in crosswords exposes individuals to a diverse range of information, making the activity an enjoyable way to learn new words and trivia. Whether it's the thrill of solving challenging clues or the joy of expanding one's knowledge base, the motivation behind tackling crossword puzzles lies in the mental exercise, accomplishment, and the sheer enjoyment of the linguistic journey they offer.
@@ -444,5 +445,6 @@ The website was deployed to GitHub pages via the following methods:
 - [Scmp](https://www.scmp.com/lifestyle/health-wellness/article/3092629/brain-how-it-works-and-best-ways-keep-it-healthy-you-get
 )
 - Readme Template is sourced from [love-running-2.0](https://code-institute-org.github.io//index.html) 
+-  Logo is sourced from [qonversion.io](https://qonversion.io/apps/ios/crossword-puzzle-universe/1552720930)  
 
  
