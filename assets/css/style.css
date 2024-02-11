@@ -9,14 +9,29 @@
 
 
 /*General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*Generic project styles */
+ 
 
-    font-family: "Lato", sans-serif;
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
 }
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}
+
+
+
 
 /* Header */
 header {
@@ -153,6 +168,21 @@ nav {
 
 
 
+/* --------- Game layout */
+
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+
 
 main {
     /* Enlarge main element to push footer down*/
@@ -263,3 +293,24 @@ ul li a img {
 /* #main_menu a:hover {
     box-shadow: 2px 2px 2px 1px rgba(230, 230, 14, 0.8);
 } */
+
+
+
+@media (max-width: 320px) {
+    .game-area {
+        height: 70vh;
+    }
+
+    .controls-area {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .btn--big {
+        margin: 10px 10px;
+    }
+    .question-area {
+        padding: 10px 0;
+    }
+
+}
