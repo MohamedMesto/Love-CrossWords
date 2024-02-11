@@ -23,11 +23,13 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
+     
 }
 
 .logo {
     height: 40px;
     padding-right: 5px;
+     
 }
 
 
@@ -95,6 +97,7 @@ hr {
 
     background-color: rgba(0, 0, 255, .4);
     /* Modern Browsers */
+     
 }
 
 /* Navbar styles with dropdown toggle */
@@ -170,13 +173,14 @@ nav {
 
 /* --------- Game layout */
 
-.game-area {
+.game_area {
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
+    height: 100vh; 
     max-height: 450px;
     max-width: 830px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
