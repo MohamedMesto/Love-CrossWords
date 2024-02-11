@@ -1,0 +1,265 @@
+
+ /* Asterisk wildcard selector to override default styles added by the browser */
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles */
+
+    font-family: "Lato", sans-serif;
+}
+
+/* Header */
+header {
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    z-index: 91;
+    width: 100%;
+    padding: 0 1rem;
+    position: fixed;
+    /* show menu in a row*/
+    display: flex;
+
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .8);
+    /* show menu in vertical alignment*/
+    align-items: baseline;
+    height: auto;
+}
+
+
+
+/* Title - cover's slogan */
+h1,
+h2,
+h5 {
+    color: beige;
+    font-family: "Lemon", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#main_menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 112%;
+}
+
+#main_menu>li {
+    margin-top: 1em;
+    /* margin-bottom: 1em; */
+}
+
+.active_link {
+    /* border: 1px solid rgb(34, 113, 224);
+    border-radius: 5px; */
+    box-shadow: 2px 2px 2px 1px rgba(230, 230, 14, 0.8);
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 2px 2px 2px 1px rgba(114, 114, 223, 0.8);
+}
+
+hr {
+
+    height: 5px;
+    /* Set the hr color */
+
+    background-color: rgba(0, 0, 255, .4);
+    /* Modern Browsers */
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: none;
+    /* show the menu down the H1-title    */
+    top: 100%;
+    padding: 0 1rem;
+    /* box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .8); */
+}
+
+
+ /* Nav toggle -->> show the menu when clicking */
+ #nav-toggle:checked~nav {
+    display: block;
+}
+
+/* hide the checkbox */
+#nav-toggle {
+    display: none;
+}
+
+/* increasing the size of the checkbox */
+.nav-toggle-label {
+    font-size: 1.5rem;
+}
+
+
+
+
+ /* Main content */
+ main {
+    /* background-color: rgb(231, 210, 24); */
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+
+    margin-top: 200px;
+
+}
+
+/* core_img section */
+#core_img {
+    height: 900px;
+    width: 100%;
+    /* background-color: #0fc36c; */
+    background: url("../images/crossword_de.png") no-repeat center center;
+    position: relative;
+    /*  /cover   */
+    /* display: inline-block; */
+
+}
+
+
+#cover_slogan {
+
+    background-color: rgba(0, 0, 255, .4);
+
+    font-family: "Lemon", sans-serif;
+    font-size: 160%;
+    position: absolute;
+    bottom: 300px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+
+
+
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+ /* Footer */
+ footer {
+    background-color: black;
+
+
+}
+
+
+
+
+
+ /* Social-networks-link icons*/
+ #social_networks_links {
+
+    list-style-type: none;
+    text-align: center;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+#social_networks_links i {
+    font-size: 160%;
+    padding: 5%;
+    color: #161fbd;
+
+}
+
+/* Makes the square image into a circle on social_networks_links */
+ul li a img {
+    /* Makes the square image into a circle */
+    border-radius: 25%;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+/* Dealing with different Devices and Screen Sizes displaying - Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #crossword_logo {
+        font-size: 290%;
+        line-height: 80px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+    #cover_slogan {
+
+        width: 50%;
+        right: 30px;
+
+    }
+
+}
+
+
+ 
+
+/* enable it , only if we need to active them on all devices sizes  */
+/* #main_menu a:hover {
+    box-shadow: 2px 2px 2px 1px rgba(230, 230, 14, 0.8);
+} */
