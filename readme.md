@@ -176,11 +176,12 @@ Welcome to Love Cross Words, where the fusion of thinking and play lasts a lifet
 
 ## Code Validation
 
-Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Validator. There were 6 minor errors that came up for all of the pages. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
 ![W3C HTML Validator](assets/images/readme_images/html-validator.png)
 
-![W3C CSS Validator](assets/images/readme_images/css-validator.jpg)
+![W3C CSS Validator](assets/images/readme_images/css-validator1.png)
+![W3C CSS Validator](assets/images/readme_images/css-validator2.png)
 
 ## Lighthouse Testing
 

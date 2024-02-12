@@ -58,7 +58,7 @@ padding-top: 5%;
 
 /* input box style */
 .input_style{
-size: 24;
+ font-size: 24em;
 font-weight: bold;
 text-transform: uppercase;
 
@@ -144,10 +144,10 @@ text-transform: uppercase;
 	padding-right: 0pt;
 	padding-top: .5em;
 }
-#button_result{
+/* .button_result{
 display: none;
  
-}
+} */
 /* Cross Word Area style */
 .ecw-crosswordarea {
 	background-color: #000000;
