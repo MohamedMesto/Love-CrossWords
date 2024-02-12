@@ -51,6 +51,8 @@ text-align: right;
 {
 vertical-align: top;
 padding-left: 1em;
+padding-top: 5%;
+
 
 }
 
@@ -179,3 +181,6 @@ display: none;
 	display: none;
 	margin-top: 1em;
 }
+
+
+

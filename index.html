@@ -59,19 +59,21 @@
                 recent web browser, including Windows Internet Explorer, Mozilla Firefox, Google Chrome, or
                 Apple Safari. If you have disabled web page scripting, please re-enable it and refresh
                 the page. If this web page is saved on your computer, you may need to click the yellow Information Bar
-                at the
-                top or bottom of
-                the page to allow the puzzle to load.
+                at the top or bottom ofthe page to allow the puzzle to load.
             </div>
             <table>
                 <tr>
-                    <td class="ecw-crosswordarea">
+                    <td id="crosswordarea" class="ecw-crosswordarea" >
                         <!-- Cross Words descriptions script file -->
                         <script type="text/javascript" src="assets/js/script_desc.js"></script>
                         <!-- Cross Words Functions script file -->
                         <script type="text/javascript" src="assets/js/script_fn.js"></script>
                     </td>
-                    <td  class="td_question">
+                    <td>   </td>
+                </tr>   
+                <tr>
+                    
+                    <td   class="td_question">
                         <div id="welcomemessage" class="ecw-answerbox" style="display:none;">
                             <h3>Welcome!</h3>
                             <p>Click a word in the puzzle to get started.</p>
@@ -99,7 +101,9 @@
                                                 onclick="DeselectCurrentWord();">Cancel</button>
                                         </td>
                                     </tr>
+
                                 </tbody>
+ 
                             </table>
                         </div>
 
@@ -109,6 +113,7 @@
                             </p>
                         </div>
                     </td>
+                    <td>   </td>
                 </tr>
             </table>
             <div style="margin-top: 1em;">
