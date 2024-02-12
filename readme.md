@@ -23,6 +23,9 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/Love-C
 - [Features](#features)
   - [Navigation](#navigation)
   - [Home Page](#home-page)
+    - [Cross Word Game Area](#cross-word-game-area)
+    - [Answer Section](#answer-section)
+    - [Check CrossWords Puzzle Result Section (Button)](#check-crosswords-puzzle-result-section-button)
   - [Fasting Steps page](#fasting-steps-page)
   - [Fasting World Page](#fasting-world-page)
   - [Join us Page](#join-us-page)
@@ -81,29 +84,28 @@ The primary aim of our crossword puzzle application is to offer users an intelle
 
 ## Site Structure
 
-Love Cross Words (Fasting Treatment) consists of 6 page website with 5 pages that the user can navigate between via the navigation bar.  The Home page is the default loading page. The Logo is centered and is also linked to the Home Page. On the right hand site of the logo are five navigation links of [Home](index.html) , [Fasting Steps](fasting.html) ,[Fasting World](fasting_world.html) , [Join us](join_us.html) and [Fasting books](books.html).
+Love Cross Words (Think and play rationally forever) consists of 3 page website components of the [Home page](index.html). Which enable the user to navigate between them via  mouse or hand using the touch screens.  The Home page is the default loading page. The logo is located at teh keft and is also linked to the Home Page.The Cross words game area located in the center. on the bottom is the answer box located. After finishing we find the buttom "Check CrossWords Puzzle Result" to get the result .
 
 
 ## Design Choices
 
 ### Colour Scheme
 
-The final color scheme chosen was shades of blue with white accents, as well as light purple and white to divide the pages. In other words, two light blue colors were used on the navigation bar, a yellow effect to highlight the active page and for a scrolling effect, and a beige color for the writing. This color scheme is in keeping with a clean, modern look but still has a touch of warmth by sticking to warmer colors like navy blue, gray, and white.
+The color scheme of our architectural crossword puzzle application is meticulously chosen to evoke a sense of sophistication and creativity. Dominated by cool and muted tones such as subtle grays and blues, the interface provides a calm and focused backdrop, allowing users to concentrate on solving puzzles. Accents of warm earthy tones, inspired by natural building materials, add a touch of warmth and connection to architectural elements. The color palette aims to reflect the elegance of architectural design while ensuring readability and visual comfort. Overall, the harmonious blend of colors creates an aesthetically pleasing environment that complements the intellectual engagement of exploring the world of architecture through crossword challenges.
 
 ![Colour palette image of 5 colours](assets/images/readme_images/colour_palette_lyb.png)
 
+![Colour palette image of 5 colours](assets/images/readme_images/colour_palette_lyb2.png)
 ### Typography
 
-There were two types of fonts chosen for this website. 'Lemon' was used for the body of the text and 'Lato' for the headings, which is a slightly different version Lemon than the body text to provide emphasis. Besides, sub texts used fonts fall back to 'sans-serif'.  The Lemon fonts exude a subtle sense of luxury, enhanced by their sophisticated serifs that introduce a touch of complexity to the design. Through meticulous adjustments in letter spacing and line heights, we maintain a clean aesthetic while infusing a hint of refinement.
+The typography of our architectural crossword puzzle application is designed for clarity and readability, aligning with a minimalist aesthetic. Utilizing a classic combination of black text on a white background ensures optimal legibility, reducing eye strain during extended puzzle-solving sessions. We employ a clean and modern sans-serif font to convey a sense of simplicity and sophistication, enhancing the overall user experience. The well-defined letterforms contribute to an organized and visually pleasing interface, allowing players to focus on deciphering architectural clues effortlessly. This intentional choice in typography aims to create a sleek, user-friendly environment that complements the intellectual engagement of exploring architectural concepts through crossword challenges..
 
 [Back to top](<#contents>)
 
 # Features
 
 
-Love Cross Words boasts a user-friendly and intuitive design, resembling a conventional website layout, thereby inviting users to seamlessly delve deeper into its offerings.
-
-Upon entering each page, excluding the Home Page, visitors encounter a distinct heading accompanied by a concise paragraph introducing the content. The use of friendly language, vibrant colors, and thoughtful design aims to create an easily understandable and approachable environment. Additionally, the website offers unique and valuable insights, providing readers with extraordinary information not commonly found elsewhere.
+Welcome to Love Cross Words, where the fusion of thinking and play lasts a lifetime! Our three-section website starts with the Home section, the default loading screen. The logo, intelligently placed on the left, serves as a clickable link, seamlessly bringing you back to the Home section. In the heart of our design lies the Cross Words game area, inviting you to dive into a world of intellectual delight. At the bottom, you'll discover the answer box, patiently awaiting your solutions. Upon completion, a final touch awaits with the 'Check CrossWords Puzzle Result' button—your gateway to unveiling the outcome of your rational journey. Navigate effortlessly through sections via mouse or touch screen, as Love Cross Words promises an intuitive and engaging experience.
 
 ## Navigation
 
@@ -115,32 +117,33 @@ Upon entering each page, excluding the Home Page, visitors encounter a distinct 
 
 ![Desktop Navbar](assets/images/readme_images/navbar-desktop.png)
 
-![Medium Screen Navbar](assets/images/readme_images/navbar-medium-screen.png)
-
+ 
 ![Mobile Navbar](assets/images/readme_images/navbar-mobile.png)
 
 ## Home Page
 
-- The Home Page serves as the initial landing point for users, offering a warm and inviting design. Its primary objective is to provide a welcoming introduction, ensuring that the purpose of the website is easily discernible to visitors.
+![Desktop Homepage](assets/images/readme_images/home-page1.png)
 
-- A prominently featured core image, carefully selected for its style, color scheme, and tone, seamlessly aligns with the overall aesthetics of the website. Overlaid on this captivating image are the site name and a succinct slogan highlighting the fasting treatment, ensuring immediate visibility and impact.
 
-- A carefully curated quote strategically peeks just above the fold, offering users a glimpse of the depth of information awaiting them on the page. Crafted to convey the essence of the website – centered around the benefits the concept of God's grace and mercy which is the idea of fasting – the quote aims to resonate with users and set the tone for their exploration..
-
-- Within the Learn of Discipline section on the home page, fasting emerges as a profound instructor. It imparts valuable lessons, fostering patience, nurturing tolerance for hunger, and fortifying one's willpower. Through disciplined self-control, fasting becomes a catalyst for personal growth.
-
-- Each section on the Home Page is meticulously crafted to evoke a sense of warmth and friendliness, intending to inspire users to delve into the website with the ultimate goal of navigating to the Join us Page.
-
+### Cross Word Game Area
  
+![Cross Word Game Area](assets/images/readme_images/cr_area.png)
 
- ![Desktop Homepage](assets/images/readme_images/home-page1.png)
+
+### Answer Section
+
+![Answer Section](assets/images/readme_images/answer_section.png)
+
+### Check CrossWords Puzzle Result Section (Button)
+
+
+
+
+ ![Check Section](assets/images/readme_images/check_section.png)
  ![Desktop Homepage](assets/images/readme_images/home-page2.png)
  <details><summary>Mobile Home Page</summary>
 
- ![Mobile Homepage](assets/images/readme_images/home-page-mobile1.png)
-![Mobile Homepage](assets/images/readme_images/home-page-mobile2.png)
-![Mobile Homepage](assets/images/readme_images/home-page-mobile3.png)
-![Mobile Homepage](assets/images/readme_images/home-page-mobile4.png)
+
  </details>
 
 ## Fasting Steps page
