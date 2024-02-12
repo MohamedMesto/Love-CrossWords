@@ -6,7 +6,7 @@
 You can view the live site here - <a href="https://mohamedmesto.github.io/Love-CrossWords/" target="_blank"> Love Cross Words </a>
 
 ![Love Cross Words responsive design](assets/images/readme_images/devices.png)
-
+ 
 # Contents
 
 - [**_Love Cross Words (Think and play rationally forever) - Project Portfolio 2 - JavaScript_**](#love-cross-words-think-and-play-rationally-forever---project-portfolio-2---javascript)
@@ -16,7 +16,6 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/Love-C
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Site Aims](#site-aims)
-  - [Design the Episode](#design-the-episode)
   - [Site Structure](#site-structure)
   - [Design Choices](#design-choices)
     - [Colour Scheme](#colour-scheme)
@@ -47,7 +46,8 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/Love-C
 
 # Objective
 
- The aim of this project is to practice fasting and stay healthy and full power. Moreover, to improve a person's daily life by increasing the ability to concentrate and increasing the efficiency of the body's systems. However, the Engaging in fasting can evoke a sense of inner strength, making individuals feel powerful as they experience heightened mental clarity and a renewed sense of vitality.
+ 
+The primary aim of our crossword puzzle application is to offer users an intellectually stimulating and entertaining experience. By presenting a diverse range of carefully crafted puzzles, our application seeks to challenge and enhance users' vocabulary, problem-solving skills, and cognitive agility. Through an intuitive and user-friendly interface, we aim to create an immersive environment that encourages individuals to engage in the joy of solving puzzles. Whether users are seeking a momentary mental escape or a daily dose of linguistic adventure, our application strives to cater to various skill levels, fostering a community of crossword enthusiasts who appreciate the satisfaction of cracking clues and unlocking the vast world of words.
 
 [Back to top](<#contents>)
 
@@ -55,32 +55,29 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/Love-C
 
 ## Target Audience
 
-- The website caters to individuals seeking a holistic approach to health, targeting those interested in practicing fasting to enhance mental clarity, boost vitality, and improve overall well-being. It appeals to a diverse audience keen on integrating fasting into their lifestyles for optimal health and increased daily performance.
+- Our crossword puzzle application is designed to appeal to a broad spectrum of individuals who appreciate mental challenges and enjoy linguistic pursuits. It caters to crossword enthusiasts of all ages, from seasoned wordplay aficionados looking for a daily brain workout to beginners eager to embark on a journey of intellectual discovery. The application's user-friendly interface makes it accessible for both casual gamers seeking leisure and dedicated crossword solvers in search of a more immersive experience. With varying difficulty levels, our target audience includes anyone keen on enhancing their vocabulary, honing problem-solving skills, and finding enjoyment in the art of wordsmithing. Whether you're a crossword connoisseur or a newcomer to the world of word games, our application offers an engaging and inclusive platform for all.
 
 ## User Stories
 
-- A user should be able to determine the site's purpose immediately
-- A user should be able to easily and intuitively navigate the site
-- A user should be able to identify the content of each page easily
-- A user should be able to easily learn more about fasting
-- A user should feel comfortable Join using the business for more information or to book an event or visit the clinic
+- A user should be able to inter the Cross Words site's purpose immediately
+- A user should be able to easily and intuitively navigate the Cross Word game
+- A user should be able to identify the aim of each section of the Cross Word game's contents easily
+- A user should be able to easily learn more about mental stimulation and motivation
+- A user should feel comfortable using the solve feature when he could not giss the right word.
 
 ## Site Aims
-- To increase the user's awareness of how to live a healthy life with a lifestyle that does not require money, but rather requires will
-- Explain and share and fasting rules and benefits
-- To provide the user with all the information needed to Join us the clinic to book an medical consultation appointment
-- To offer a clear method to Join us the fasting compunity
-- To improve the sociaty quality in a warm, friendly and inviting manner
-- To showcase a visual compilation of completed fasting projects
-- To deliver a starting guide to the cost of services
-- Share this amazing cure with the whole planet to make the people as much as possible happy, strong and healthy
 
-## Design the Episode 
-Design the Episode Love Cross Words- Therapeutic Fasting - Dr.Otto Buchinger (the link is shown below) on the youtube chanel Tips From Europe
+1. **Architectural Education:** The application aims to serve as an educational platform, introducing users to architectural terminology, styles, and historical landmarks through crossword puzzles. By incorporating architectural themes into the puzzles, users can enhance their knowledge of the subject in an engaging and interactive way.
 
-The design and structure for this website was created in Video Editor.  
+2. **Promoting Cultural Awareness:** The crossword puzzles within the application are crafted to feature architectural wonders from various cultures and time periods. This not only enriches users with global architectural knowledge but also promotes cultural awareness and appreciation for diverse design styles and influences.
 
-[![Tips From Europe](https://github.com/MohamedMesto/MohamedMesto/blob/main/Images/heilfasten_profile.png)](https://www.youtube.com/watch?v=b122ta41eqY&t=67s)
+3. **Skill Development:** The application strives to improve users' problem-solving skills by challenging them to decipher architectural clues and fill in relevant terms within the puzzles. This not only stimulates cognitive abilities but also enhances their ability to recognize and recall architectural concepts.
+
+4. **Entertainment with a Purpose:** While providing an entertaining experience, the application has the additional aim of infusing purposeful content related to architecture. It seeks to balance enjoyment with educational value, making it an ideal platform for users who wish to combine leisure with learning about architectural history and principles.
+
+5. **Community Building:** Beyond individual play, the application fosters a community of architecture enthusiasts. Users can share their achievements, discuss architectural topics, and engage in collaborative puzzle-solving challenges. This community aspect aims to create a space where individuals passionate about architecture can connect, share insights, and collectively appreciate the beauty of the built environment.
+
+ 
 
 ## Site Structure
 
