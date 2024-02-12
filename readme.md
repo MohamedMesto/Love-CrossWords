@@ -26,12 +26,6 @@ You can view the live site here - <a href="https://mohamedmesto.github.io/Love-C
     - [Cross Word Game Area](#cross-word-game-area)
     - [Answer Section](#answer-section)
     - [Check CrossWords Puzzle Result Section (Button)](#check-crosswords-puzzle-result-section-button)
-  - [Fasting Steps page](#fasting-steps-page)
-  - [Fasting World Page](#fasting-world-page)
-  - [Join us Page](#join-us-page)
-  - [Thank You Page](#thank-you-page)
-  - [Fasting books Page](#fasting-books-page)
-  - [Footer](#footer)
 - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
@@ -140,137 +134,27 @@ Welcome to Love Cross Words, where the fusion of thinking and play lasts a lifet
 
 
  ![Check Section](assets/images/readme_images/check_section.png)
- ![Desktop Homepage](assets/images/readme_images/home-page2.png)
- <details><summary>Mobile Home Page</summary>
-
-
- </details>
-
-## Fasting Steps page
-
-- The Fasting Steps page adheres to its navigation link description, presenting a clear and organized list of available events.
-
-- Utilizing distinct alternate color designs, along with headings, images, and text, the page effectively distinguishes between different fasting steps.
-
-- It boasts full responsiveness, with each fasting steps section naturally aligning into a single column, maintaining a consistent and clear color design for easy differentiation.
-
-- The page aims to convey a welcoming and friendly atmosphere, suggesting it as the perfect fit for users seeking specific events. Users are encouraged to approach the business for additional information tailored to their unique event needs.
-
-![Desktop fasting steps Page](assets/images/readme_images/fasting_steps-page.png)
-
-![Mobile fasting steps Page](assets/images/readme_images/mobile_fasting_steps-page.png)
-
-[Back to top](<#contents>)
-
-
-
-
-## Fasting World Page
-
-- The Fasting World Page provides the user with some sample photography from the Fasting World, the story, clinic ,fasting plan, Animals which fast. 
-
-- The Fasting World is easy to use, with a hover function on the images drawing the users eye to the cursor.
-
-- The Fasting World Page is fully responsive and as the screen reduces in size the columns of images reduce until the images are full width in mobile devices.
-
-![Desktop Fasting World Page](assets/images/readme_images/fasting_world-page.png)
-
-![Mobile Fasting World Page](assets/images/readme_images/mobile_fasting_world-page1.png)
-
-![Mobile Fasting World Page](assets/images/readme_images/mobile_fasting_world-page2.png)
-
-![Mobile Fasting World Page](assets/images/readme_images/mobile_fasting_world-page3.png)
-
-
-[Back to top](<#contents>)
-
-
-
-
-## Join us Page
-
-- The Join us page is should be where the user ends up. As there is no booking system or online store to purchase a fasting steps the aim is for them to reach out to the health goal.
-
-- The Join us form is modelled off the usual Join us form layout, with four input fields; First Name, Last Name, Email Address and Your Message.
-
-- The Join us form cannot be submitted unless the fields are filled correctly using the required attribute.
-
-- The form also uses a GET function to link to a Thank You page to mimic the effect of actually submitting the form . There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
-
-- Beside the Join us form there are practical Join us details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
-
-- The page is fully responsive with the sections stacking upon each other as the screen size is reduced, keeping the same design elements which distinguish between the different sections.
-
-![Desktop Join us Page](assets/images/readme_images/join_us-page.png)
  
-![Mobile Join us Page](assets/images/readme_images/mobile_join_us-page.png)
 
 [Back to top](<#contents>)
 
 
-
-
-
-## Thank You Page
-
-- The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the Join us form on the Join us page which uses a GET function to retrieve the page to imitate the Join us form submission.
-
-- The style and design of the website is consistent, with the navigation bar on top and footer on the bottom so as to allow the user to navigate back to the main website.
-
-![Desktop Thank You Page](assets/images/readme_images/thank-you-page.png)
-
-![Mobile Thank You Page](assets/images/readme_images/mobile_thank-you-page.png)
-
-[Back to top](<#contents>)
-
-
- ## Fasting books Page
-
-- The Fasting books Page provides the user with some books sample photography from the experters. It gives a mix of different ideas, food and methods in one large Fasting books.
-
-- The Fasting books is easy to use and to apply.
-
-- The Fasting books Page is fully responsive and as the screen reduces in size the columns of images reduce until the images are full width in mobile devices.
-
-![Desktop Fasting books Page](assets/images/readme_images/fasting_books-page.png)
-
-![Mobile Fasting books Page](assets/images/readme_images/mobile_fasting_books-page.png)
-
-
-[Back to top](<#contents>)
-
-
-
-## Footer
-
-- The Footer contains the social media links.
-
-- For better UX design, each of the social media links open in a new tab.
-
-- The Facebook, Instagram and Youtube links are purely for the educational purposes of the website and only navigate to the home page of each of the sites.
-
-- It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
-
-![Desktop Footer](assets/images/readme_images/footer.png)
-
-![Mobile Footer](assets/images/readme_images/mobile_footer.png)
-
-[Back to top](<#contents>)
+  
 
 # Future Features
 
-- organizion Fast plan online.
+1. **Expanded Color Palette:** Introduce a richer color scheme inspired by architectural elements, offering a visually immersive experience. Incorporate hues representative of various materials and design aesthetics, enhancing the overall aesthetic appeal.
 
-- The fasting world can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
+2. **Diverse Architectural Topics:** Enrich the puzzle database with a broader range of architectural topics, spanning from iconic landmarks to lesser-known architectural wonders. This expansion ensures that users encounter a diverse array of challenges, broadening their knowledge of architectural styles and history.
 
-- The fasting world could also be categorised by event for better UX, to allow the user to navigate directly to photos of interest to them.
+3. **Global Architectural Exploration:** Implement puzzles centered around architectural achievements from different countries, allowing users to explore and appreciate the diverse architectural landscapes worldwide. This global perspective adds an educational and cultural dimension to the crossword-solving experience.
 
-- A Log In could be added whereby clients would have access to the photos of their event in a private fasting world, will will provide a swifter service for the business, cutting out another physical meeting with clients to choose their photos.
+4. **Centuries in Architecture:** Introduce puzzles that span different centuries, offering a chronological journey through architectural evolution. Users can engage with challenges from various time periods, witnessing the evolution of design principles and construction techniques.
 
-- The mobile navigation menu could be changed into a burger menu.
+5. **Multiplayer Mode:** Foster a sense of community and competition by incorporating a multiplayer mode. Users can challenge friends or connect with crossword enthusiasts worldwide, engaging in collaborative puzzle-solving or competing for the fastest completion times. This social feature adds a dynamic and interactive dimension to the application.
 
-- An eccomerce online shop could be added for the sale of stock prints.
-
+6. **Personalized Profiles and Achievements:** Enhance user engagement by introducing personalized profiles and achievement systems. Users can track their progress, earn badges for completing specific challenges, and unlock virtual rewards. This gamification element adds an extra layer of motivation for users to continuously explore and conquer new architectural crossword puzzles.
+   
 # Technologies Used
 
 - HTML5 - Delivers the structure and content for the website.
@@ -281,6 +165,7 @@ Welcome to Love Cross Words, where the fusion of thinking and play lasts a lifet
 - [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
 - [Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html) - Used to optimise and resize images for screen.
 - [I love IMG](https://www.iloveimg.com/de) - Used to further compress optimised images.
+- Vcode Editor
 - Gitpod - Used to develop the website.
 - GitBash - Terminal used to push changes to the GitHub repository.
 - Github - Used to host and deploy the website.
