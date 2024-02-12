@@ -180,16 +180,23 @@ Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Valid
 
 ![W3C HTML Validator](assets/images/readme_images/html-validator.png)
 
+For Style.css and Style_cr.css files.
+
 ![W3C CSS Validator](assets/images/readme_images/css-validator1.png)
 ![W3C CSS Validator](assets/images/readme_images/css-validator2.png)
+
+For script_desc.js and script_fn.js
+
+![W3C JS Validator](assets/images/readme_images/js-validator.png)
+ 
 
 ## Lighthouse Testing
 
 The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and it tests it under mobile and desktop criteria.
 
-![Lighthouse testing](assets/images/readme_images/lighthouse-results.png)
+![Lighthouse testing](assets/images/readme_images/lighthouse_results.png)
 
-## Accessibility Testing
+## Accessibility Testing 
 
 [A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
 
@@ -209,48 +216,16 @@ Responsiveness was tested via a few different mediums manually, including Chrome
 
 In addition to the automated process above, manual testing was carried out on the site as well.
 
-- Naviagtion Menu
-  - Verified that all the links link to the appropriate page with no broken links on all pages.
-  - Verified that the logo when clicked links back to the Home Page.
-  - Verified that the logo image has an alt text and fallback image for non browser support of the svg file.
-  - Verified that the hover effects are consistent on all links.
-  - Verified that the active page is highlighted.
-  - Verified that the navigation bar is full responsive.
-
 - Home Page
-  - Verified that the Hero image is not pixelated and is fully responsive.
-  - Verified that all images on the home page are optimised and have alt functions.
-  - Verified that all the elements are fully responsive
 
-- fasting steps Page
-  - Verified that all the images are optimised and have alt texts.
-  - Verified that all the elements are fully responsive.
+- Cross Word Game Area
+ 
+- Answer Section
+ 
+- Check CrossWords Puzzle Result Section (Button)
 
-- Fasting World Page
-  - Verfied all the images are optimised and have alt texts.
-  - Verified that all elements are fully responsive.
+all the previous sections checked manually to be sure that all work well.
 
-- Join us Page
-  - Verified that Join us form cannot be submitted without the required information (First Name, Last Name and Email Address)
-  - Verified that once the information is submitted via Join us form, that the GET function works correctly and retrieves the thank you page.
-  - Verified that the mailto function works correctly on the email link.
-  - Verified that the page is fully responsive.
-
-- Thank You Page
-  - Verified that the thank you page is linked correctly to the Join us form.
-  - Verified that the Thank You Page is fully responsive.
-
-- Footer
-  - Verrified that the email asset links properly with the mailto function.
-  - Verified that the social media links are all linked properly to the releveant social media home pages.
-  - Verified that all the social media links open in a new tab.
-
-- Browser Testing
-
-  - Love Cross Words has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
-  - Verified that all images worked correctly
-  - Verified that design and structure was consistent across all browsers.
-  - Verfied responsiveness across all browsers.
 
 ## Bugs Fixed
 
@@ -258,18 +233,16 @@ In addition to the automated process above, manual testing was carried out on th
 
 The following error was presented once the website was placed through W3C HTML Validator.
 
- 
+![Adobe Color Blind Safe Checker](assets/images/readme_images/html_validation_error.png)
 
-It said that the img id could not be used for  each image on th e footer width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the img id from the attributes, it cleared that error up.
+
+It said that the script of js do not need type="text/javascript". Once I removed it from the attributes, it cleared that error up.
 
 ### CSS Validation
 
-The  error cropped up when the site was initially put through CSS validation.
+There was an error by a size attribute. and already fixed
 
-
-While no problems were indicated in the CSS file in using false css attribute represnted in hr - size, I correct it to height and the error cleared.
-
- 
+![Adobe Color Blind Safe Checker](assets/images/readme_images/css_validation_error.png) 
 
  
 
@@ -320,8 +293,6 @@ The website was deployed to GitHub pages via the following methods:
 - Some of the commands, statement are sourced from the our course from Code Institute.
 - The story of fasting is taken from the heavenly ,Holy books (the Torah, the Bible, and the Quran) 
 - The story topic, Materials of therapeutic fasting is taken from the website:  
-- [Dr. Otto buchinger](https://www.buchinger-wilhelmi.com/en/geschichte-des-heilfastens/) 
-- [Dr. Otto buchinger Clinic](https://www.buchinger.de/en/)
 - The images are sourced from the Internet Medical ,Healthy websites:
 - [Praxisvita](https://www.praxisvita.de/lunge-das-wichtige-organ-16228.html) 
 - [Rehafit rain](https://rehafit-rain.de/kurse/rehasport-lunge) 
