@@ -283,26 +283,20 @@ The website was deployed to GitHub pages via the following methods:
 - Images were compressed by [Tiny Png](https://tinypng.com/)
 - Colour palette was created by [coolors.co](https://coolors.co/)
 - Flexbox system was learned via youtube video from [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode)
-- Flexbox Image grid from [Kweku Adaboh](https://kweada.medium.com/css-flexbox-image-grid-for-different-sized-images-ff48cbe52ed4)
 - CSS Grid code was learned via [Traversy Media](https://www.youtube.com/watch?v=jV8B24rSN5o&t=7s&ab_channel=TraversyMedia) and [CSS Tricks](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/)
 - Code for CSS transform scale properties comes from [Learn with Param](https://learnwithparam.com/blog/scale-elements-on-hover-using-css/#:~:text=Often%20we%20get%20a%20requirement%20to%20scale%20images,%2F%2F%20shrinking%20in%20size.shrink%3Ahover%20%7B%20transform%3A%20scale%280.8%29%3B%20%7D)
 - Code for drawing a border inside a shape/image was from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css)
 - Link to the quote by [Destin Sparks](https://twitter.com/DestinSparks/status/757136759406727168?cxt=HHwWgMCg7eD38YEVAAAA)
 - Image optimisation was learned from [Layout, Flywheel](https://getflywheel.com/layout/optimize-images-for-web/#file-type)
-- Some materials are reserved to the German Navy ,Therapeutic Fasting Prof.Dr. Otto Buchinger, Miracle successful, How to live a happy healthy life.
 - Some of the commands, statement are sourced from the our course from Code Institute.
-- The story of fasting is taken from the heavenly ,Holy books (the Torah, the Bible, and the Quran) 
-- The story topic, Materials of therapeutic fasting is taken from the website:  
-- The images are sourced from the Internet Medical ,Healthy websites:
-- [Praxisvita](https://www.praxisvita.de/lunge-das-wichtige-organ-16228.html) 
 - [Rehafit rain](https://rehafit-rain.de/kurse/rehasport-lunge) 
 - [Snexplores](https://www.snexplores.org/article/explainer-what-is-a-neuron)
 - [Longevity technology](https://longevity.technology/lifestyle/key-functions-of-nerve-cells-you-need-to-know/)
 - [Educatefitness](https://educatefitness.co.uk/the-structure-and-function-of-the-heart-simplified/)
 - [Scmp](https://www.scmp.com/lifestyle/health-wellness/article/3092629/brain-how-it-works-and-best-ways-keep-it-healthy-you-get
 )
+- Some contents are sourced from [EclipseCrossword](eclipsecrossword.com)
 - Readme Template is sourced from [love-running-2.0](https://code-institute-org.github.io//index.html) 
 -  Logo is sourced from [qonversion.io](https://qonversion.io/apps/ios/crossword-puzzle-universe/1552720930)  
 
-- Some contents are sourced from [EclipseCrossword](eclipsecrossword.com)
- 
+
